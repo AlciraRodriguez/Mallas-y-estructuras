@@ -1,15 +1,26 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+    color: #fff;
 }
 .imagen{
     width: 50%;
     height: 150px;
     display: block;
     object-fit: fill;
-    padding-left: 1.5rem;
+    padding-left: -2rem;
+    padding-right: 3rem;
     float:right;
 }
 .mr-2{
-    margin-right: 1.5rem !important;
+    margin-right: 2rem !important;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding-left:0px;
+    padding-right: 0px;
+}
+#titulo{
+    padding-right: 70px;
+    letter-spacing: 2px;
 }
