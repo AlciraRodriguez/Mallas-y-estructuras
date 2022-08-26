@@ -24,3 +24,21 @@
     padding-right: 70px;
     letter-spacing: 2px;
 }
+
+.menu{
+    padding-top: 50px;
+}
+
+.item{
+    text-decoration: none;
+    color:#000;
+}
+
+/* Seudo Clases*/
+.item:hover{
+    color:rgb(40, 114, 234);
+}
+
+.item:active{
+    color:rgb(128, 34, 210);    
+}
