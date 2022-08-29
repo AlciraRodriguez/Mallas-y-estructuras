@@ -49,3 +49,9 @@
     font-size: 3.5rem;
     }
 }
+
+#formulario{
+    background-image: url('../img/malla.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
