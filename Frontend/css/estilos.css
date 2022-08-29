@@ -7,7 +7,7 @@
 .d-flex.flex-wrap.py-3.mb-5.border-bottom.bg-success{
     margin-bottom:0px;
 }
-.imagen{
+.logoEmpresa{
     width: 50%;
     height: 150px;
     display: block;
@@ -32,16 +32,6 @@
     padding-top: 50px;
 }
 
-.item{
-    text-decoration: none;
-    color:#000;
-}
-
-/* Seudo Clases*/
-.item:hover{
-    color:rgb(40, 114, 234);
-}
-
-.item:active{
-    color:rgb(128, 34, 210);    
+#borderBottom{
+    border-color: rgb(14, 84, 14);
 }
