@@ -1,26 +1,37 @@
-+<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/logoMallas.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabla de productos</title>
+
 </head>
 <body>
-    <head>
-        <title>Tabla de productos</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        </head>
-        <body>
-        
+    <div class="container-fluid">
+        <header class="d-flex flex-wrap py-3 border-bottom btn-success">
+            <div class="d-flex justify-content-between w-100"
+                id="logoEmpresa">
+                <div class="w-50 mr-2">
+                    <img src="img\logoMallas.ico" alt="LogoEmpresa" class="logoEmpresa">
+                </div>
+                <div class="container-fluid row justify-content-center
+                    align-items-center">
+                    <div id=titulo class="col-auto text-center fs-1
+                        fw-light">
+                        MUNDIAL DE MALLAS Y ESTRUCTURAS INGENIERIA S.A.S
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
         <div class="container">
-            <h2> Productos</h2> 
-        <!-- Inicio de tabla responsive-->
-            <table class="table table-responsive">
+            <h2 class="text-black"> Productos</h2> 
+            <!-- Inicio de tabla responsive-->
+            <table class="table table-responsive bg-success">
                 <thead>
                     <tr>
                         <th>Fecha</th>
@@ -66,11 +77,8 @@
                         <td> </td>
                         <td> </td>>
                     </tr>
-                </tbody>
-            </table>
-            
-            
+                <tbody>
             </table>
         </div>
-        </body>
-        </html>
+    </body>
+</html>
